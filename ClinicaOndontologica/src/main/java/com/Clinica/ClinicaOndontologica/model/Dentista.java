@@ -18,7 +18,7 @@ import javax.validation.constraints.NotNull;
 public class Dentista {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "dentista")
+    @Column(name = "idDentista")
     private Long id;
     @NotNull
     @NotEmpty
